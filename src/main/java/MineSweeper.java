@@ -90,7 +90,7 @@ public class MineSweeper {
     }
 
     public List insertMines(List initialLayoutList, int numMines){
-        System.out.println("Max number of Mines = " + numMines);
+        System.out.println("Maximum number of Mines = " + numMines);
         String getRandRowContent;
         String rowMinusBrackets;
         StringBuffer mineString = new StringBuffer();
